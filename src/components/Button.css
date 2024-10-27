@@ -1,0 +1,19 @@
+button{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.button-login{
+    background-color: rgb(138, 238, 238);
+}
+
+.button-register{
+    background-color: rgb(225, 144, 241);
+}

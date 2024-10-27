@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './ImageContainer.css'
 function ImageContainer() {
   return (
     <div>
-        <img src="" alt="" />
+        <img src="../src/assets/mondongo.jpg" alt="mondongo" />
     </div>
   )
 }

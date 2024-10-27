@@ -1,11 +1,13 @@
 import React from 'react'
-
+import './HeaderContainer.css'
+import Button from './Button'
 function HeaderContainer() {
-  return (
-    <header>
-        CODIGO DE LOGICA PARA DEFINIR SI 1 BOTON O 2
-    </header>
-  )
+    return (
+        <div className='header'>
+            <Button text = "Iniciar Sesión" variant= "login" />
+            <Button text = "Registrarse" variant= "register"/>
+        </div>
+    )
 }
 
 export default HeaderContainer
