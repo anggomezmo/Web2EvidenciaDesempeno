@@ -1,0 +1,44 @@
+.link {
+    width:fit-content;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+    display: flex;
+    border: 3px solid black;
+    padding: 30px;
+    height: 50%;
+    width: 40%;
+}
+
+.reg{
+    display: flex;
+    border: 3px solid black;
+    padding: 30px;
+    height: 80%;
+    width: 40%;
+
+}
+
+.login-inputs{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+
+}
+
+.login-inputs input{
+    width: 75%;
+    height: 28px;
+}
+
+.login-final{
+    display: flex;
+    gap: 20px;
+}

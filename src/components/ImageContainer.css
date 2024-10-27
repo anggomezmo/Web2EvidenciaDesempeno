@@ -1,10 +1,27 @@
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.welcome-div{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
 }
 
-div img {
+.welcome{
+width: 600px;
+}
+
+
+.login-div{
     box-sizing: border-box;
-    width: 650px;
+    height: 140%
+}
+
+
+.reg .login-div{
+    padding: 30px;
+    box-sizing: border-box;
+    height: 140%
+}
+
+.login-div .login-register{
+    
+    overflow: hidden;
 }

@@ -1,6 +1,7 @@
-button{
+
+.button-login{
     display: flex;
-    width: 100px;
+    width: 140px;
     height: 25px;
     align-items: center;
     justify-content: center;
@@ -8,12 +9,48 @@ button{
     -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
     box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
     cursor: pointer;
-}
-
-.button-login{
+    text-decoration: none;
     background-color: rgb(138, 238, 238);
 }
 
 .button-register{
+    display: flex;
+    width: 140px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    text-decoration: none;
     background-color: rgb(225, 144, 241);
+}
+
+.button-logout{
+    display: flex;
+    width: 140px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(238, 76, 47);
+}
+
+.button-dashboard{
+    display: flex;
+    width: 140px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(227, 238, 74);
 }

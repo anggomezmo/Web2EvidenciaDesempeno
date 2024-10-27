@@ -1,11 +1,13 @@
 import React from 'react'
 import './ImageContainer.css'
-function ImageContainer() {
+function ImageContainer({variety,varietyDiv}) {
+  
   return (
-    <div>
-        <img src="../src/assets/mondongo.jpg" alt="mondongo" />
+    <div className={varietyDiv}>
+        <img src="../src/assets/mondongo.jpg" alt="mondongo" className={variety}/>
     </div>
   )
 }
+
 
 export default ImageContainer

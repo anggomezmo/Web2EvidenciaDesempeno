@@ -1,13 +1,15 @@
 import React from 'react'
 import './Button.css'
-function Button({ text, variant, onClick }) {
+import { Link } from 'react-router-dom'
+function Button({ variant, to, children }) {
     
     let buttonClass = `button-${variant}`
 
     return (
-    <button className={buttonClass} onClick={onClick}>
-        {text}
-    </button>
+    <Link to={to} className={buttonClass}>
+      {children}
+    </Link>
+
   )
 }
 export default Button

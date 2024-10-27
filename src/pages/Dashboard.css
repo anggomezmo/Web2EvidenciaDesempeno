@@ -1,0 +1,62 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main nav{
+    width: 15%;
+    height: auto;
+    border: 3px solid black;
+    margin: 30px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 80px;
+}
+
+main section {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.titulo{
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    font-size: 40px;
+}
+
+.container {
+    width: 30%;
+    height: 99%;
+    border: 3px solid black;
+}
+
+.containerFather{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+}

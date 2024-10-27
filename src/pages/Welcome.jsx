@@ -7,10 +7,10 @@ function Welcome() {
   return (
     <div>
         <header>
-            <HeaderContainer/>
+            <HeaderContainer variety='welcome'/>
         </header>
         <section>
-            <ImageContainer/>
+            <ImageContainer variety='welcome' varietyDiv='welcome-div'/>
         </section>
     </div>
   )
